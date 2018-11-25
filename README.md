@@ -4,7 +4,7 @@ Just testing the Python's Plotly library with the Heatmap graph.
 
 ## How can I make it work?
 
-Run the file passing one argument as the name of the .csv file you want to read. In this example, a sample file was provided with the weekly temperatures (and more) from Benidorm, Valencian Country.
+Run the file passing two arguments, one as the name of the .csv file you want to read and the second one as the field you want to check. In this example, a sample file was provided with the weekly temperatures (and more) from Benidorm, Valencian Country.
 
 This is one row example:
 
@@ -15,6 +15,11 @@ If you want to use your own .csv, use this as a template, but with 'Day', 'Hour'
 
 How to run the code:
 
-python heatmap_city.py Benidorm
+`python heatmap_city.py CITYNAME FIELD`
 
-It will search for Benidorm.csv (name + '.csv') and in case it will find it, it creates a Heatmap like this one:
+Example:
+
+`python heatmap_city.py Benidorm Temperature`
+
+It will search for Benidorm.csv (name + '.csv') and, if the file exists, will map the Temperature field creating this website:
+![Benidorm HeatMap](https://i.imgur.com/27iDE2d.jpg)

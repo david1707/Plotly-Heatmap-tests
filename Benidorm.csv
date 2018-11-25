@@ -1,4 +1,4 @@
-﻿Year,Month,Day,Hour,Minute,Temperature,Relative Humidity,Sunshine Duration,Wind Speed,Wind Direction
+﻿Year,Month,Day,Hour,Minute,Temperature,Humidity,SunshineDuration,WindSpeed,WindDirection
 2018,11,18,00,00,12.77,84.00,0.00,13.08,7.91
 2018,11,18,01,00,12.63,89.00,0.00,10.37,20.32
 2018,11,18,02,00,12.36,90.00,0.00,8.79,34.99
