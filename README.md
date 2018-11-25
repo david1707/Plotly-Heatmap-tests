@@ -15,6 +15,8 @@ If you want to use your own .csv, use this as a template, but with 'Day', 'Hour'
 
 How to run the code:
 
-python heatmap_city.py Benidorm
+`python heatmap_city.py CITYNAME`
 
-It will search for Benidorm.csv (name + '.csv') and in case it will find it, it creates a Heatmap like this one:
+It will search for CITYNAME.csv (If not, it defaults to Benidorm.csv, file included) and in case it will find it, it creates a Heatmap like this one:
+
+![Benidorm HeatMap](https://i.imgur.com/27iDE2d.jpg)
